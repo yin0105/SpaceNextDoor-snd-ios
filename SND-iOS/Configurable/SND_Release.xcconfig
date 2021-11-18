@@ -1,0 +1,32 @@
+//
+//  Production.xcconfig
+//  WeFresh-iOS
+//
+//  Created by Hoi Dang Quoc on 1/8/20.
+//  Copyright © 2020 Watthanai Chotcheewasunthorn. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_DISPLAY_NAME = Wefresh
+PRODUCT_BUNDLE_IDENTIFIER = asia.sendit.wefresh
+
+GOOGLE_SERVICE_ENVIRONMENT = Release
+GOOGLE_SERVICE_API_KEY = AIzaSyDMeG7Y_t_SUhQZluZd6NGEz1fsk4-A_6Y
+
+CLEVER_TAP_ACCOUNT_ID = 48K-46R-985Z
+CLEVER_TAP_TOKEN = 264-3b4
+
+SMART_LOOK_KEY = 895896538dc0488c7c2f3dcdbddb5cc93dfcc1f5
+
+API_HASURA_GRAPHQL_URL = https:/$()/api-graphql-v2.wefresh.me/v1/graphql?apikey=3qR55Xg2mgW25GP3Gjr2fW7TZ5HfE3FHs4U1mreK9pMXk1zaNB67us52nK3e7zTD
+API_HASURA_GRAPHQL_SECRET = CmBg47dyw8XN5W1w7SJ9VFY7xz17Z63Mpi8QQ3fTB75w91meJ3pC8ZeLgDJm2edr 
+
+OMISE_SDK_PUBLIC_KEY = pkey_5jjm2y8sj2babmtiovw
+
+REMOTE_CONFIG_DEFAULTS = GoogleService-Info-Release
+
+API_ARTICLE_URL = https:/$()/cms.wefresh.me/graphql
+
+#include "Pods/Target Support Files/Pods-WeFresh-iOS-WeFresh-B2C/Pods-WeFresh-iOS-WeFresh-B2C.release.xcconfig"

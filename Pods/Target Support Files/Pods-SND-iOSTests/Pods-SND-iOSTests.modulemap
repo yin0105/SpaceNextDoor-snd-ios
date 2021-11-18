@@ -1,0 +1,6 @@
+framework module Pods_SND_iOSTests {
+  umbrella header "Pods-SND-iOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

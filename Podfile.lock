@@ -1,0 +1,70 @@
+PODS:
+  - ActiveLabel (1.1.0)
+  - BFWControls (3.1.2)
+  - CleverTap-iOS-SDK (3.9.2):
+    - SDWebImage (~> 5.1)
+  - EmptyDataSet-Swift (5.0.0)
+  - KeychainAccess (4.2.1)
+  - LYEmptyView (1.3.1)
+  - MarkdownView (1.6.0)
+  - MJRefresh (3.5.0)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - SnapKit (5.0.1)
+  - ZSWTappableLabel (3.2)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - BFWControls (~> 3.1)
+  - CleverTap-iOS-SDK
+  - EmptyDataSet-Swift
+  - KeychainAccess
+  - LYEmptyView
+  - MarkdownView
+  - MJRefresh
+  - PromiseKit
+  - SnapKit
+  - ZSWTappableLabel
+
+SPEC REPOS:
+  trunk:
+    - ActiveLabel
+    - BFWControls
+    - CleverTap-iOS-SDK
+    - EmptyDataSet-Swift
+    - KeychainAccess
+    - LYEmptyView
+    - MarkdownView
+    - MJRefresh
+    - PromiseKit
+    - SDWebImage
+    - SnapKit
+    - ZSWTappableLabel
+
+SPEC CHECKSUMS:
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  BFWControls: 36089fea1a54c6255ea86422877f723cc7a067ff
+  CleverTap-iOS-SDK: 348167628e6bf8f784b003b15abc0c872d346a55
+  EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
+  KeychainAccess: 9b07f665298d13c3a85881bd3171f6f49b8151c1
+  LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
+  MarkdownView: 25c1c2d7ff9706624a575556296e188be3dd3f6b
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  ZSWTappableLabel: f738597b56086ed885f79f164a0c8c15a990c750
+
+PODFILE CHECKSUM: 8bbde42745a27db6db04719214badb890a0377ef
+
+COCOAPODS: 1.10.0

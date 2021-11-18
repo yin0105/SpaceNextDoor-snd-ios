@@ -1,0 +1,6 @@
+framework module Pods_SND_iOS {
+  umbrella header "Pods-SND-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

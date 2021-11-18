@@ -1,0 +1,6 @@
+framework module BFWControls {
+  umbrella header "BFWControls-umbrella.h"
+
+  export *
+  module * { export * }
+}

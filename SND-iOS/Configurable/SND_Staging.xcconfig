@@ -1,0 +1,32 @@
+//
+//  Staging.xcconfig
+//  WeFresh-iOS
+//
+//  Created by Hoi Dang Quoc on 1/8/20.
+//  Copyright © 2020 Watthanai Chotcheewasunthorn. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_DISPLAY_NAME = Wefresh-Staging
+PRODUCT_BUNDLE_IDENTIFIER = com.ascend.wefresh.staging
+
+GOOGLE_SERVICE_ENVIRONMENT = Staging
+GOOGLE_SERVICE_API_KEY = AIzaSyDMeG7Y_t_SUhQZluZd6NGEz1fsk4-A_6Y
+
+CLEVER_TAP_ACCOUNT_ID = TEST-58K-46R-985Z
+CLEVER_TAP_TOKEN = TEST-264-3b5
+
+SMART_LOOK_KEY = d07c4a220abca77f8956999111496c8977e3414d
+
+API_HASURA_GRAPHQL_URL = https:/$()/api-graphql-staging-v2.wefresh.me/v1/graphql?apikey=AmM1R4bEEUKx4L371ED54TQcuHtkTinCAvw23tUwj243kmpbL9Q2p46P56d5w4XH
+API_HASURA_GRAPHQL_SECRET = ^56jbE?d8NK;*5Ur4yT'bL6n93EfuGj.=6Ei2L1R9;u6,yc_G1~#-Q7#@g2^rMFS
+
+OMISE_SDK_PUBLIC_KEY = pkey_5jjm2y8sj2babmtiovw
+
+REMOTE_CONFIG_DEFAULTS = GoogleService-Info-Staging
+
+API_ARTICLE_URL = https:/$()/cms-dev.wefresh.me/graphql
+
+#include "Pods/Target Support Files/Pods-WeFresh-iOS-WeFresh-B2C/Pods-WeFresh-iOS-WeFresh-B2C.staging.xcconfig"
